@@ -1,0 +1,40 @@
+
+body{
+  background: red;
+}
+.cabezera{
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.esquinaabajo{
+  border-radius: 0px 0px 20px 20px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+}
+.esquinaarriba{
+  border-radius: 20px 20px 0px 0px;
+  -moz-border-radius: 20px 20px 0px 0px;
+  -webkit-border-radius: 20px 20px 0px 0px;
+}
+.redes{
+  margin-top: 10%;
+}
+.centrar{
+  text-align: center;
+}
+.menu{
+  background-color: orange;
+  text-align: center;
+}
+.contenido{
+  background-color: white;
+  text-align: center;
+}
+.margin30{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.selecionar:hover{
+  background-color: red;
+}

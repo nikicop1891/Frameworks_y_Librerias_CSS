@@ -1,0 +1,52 @@
+body{
+  background-image: url("../imagen/huascaran.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;/*para que sea estático*/
+  background-position: top right;/*arriba a la derecha*/
+  background-repeat: no-repeat;/*que no se repita el fondo*/
+}
+.redondear{
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  margin: 20px;
+}
+.redessociales{
+  margin-left: 25%;
+}
+.logo{
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+.fondoblanco{
+  background-color: white;
+}
+.fondoceleste{
+  background-color: #36E6E0;
+}
+.floatimg{
+  float: left;
+}
+.autor{
+  border-radius: 150px;
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  margin-top: 20px;
+}
+.centrartexto{
+  text-align: center;
+}
+.chip2{
+  font-size: 16px;
+  line-height: 32px;
+  padding-left: 8px;
+}
+.padding5{
+  padding: 15px;
+}
+.letrasblancas{
+  color: white !important;
+}
