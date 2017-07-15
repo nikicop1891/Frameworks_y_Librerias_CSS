@@ -1,0 +1,121 @@
+body{
+  background-image: url("../imagen/casa_interior.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;/*para que sea estático*/
+  background-position: top right;/*arriba a la derecha*/
+  background-repeat: no-repeat;/*que no se repita el fondo*/
+}
+/*div{
+  border: 1px solid black;
+}*/
+.verticalbar{
+  display: inline-block;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  height: 120px;
+  margin-top: 10px;
+}
+.lineablanca{
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  margin: 0;
+}
+.fondo{
+  background: #494B56;
+  opacity: 0.5;
+  width: 100%;
+  position: absolute;
+/*position:fixed !important;
+right:0px;
+top:0px;
+z-index:10 !important;
+background: #494B56;
+opacity: 0.5;*/
+
+}
+.fondo1{
+  overflow: auto;
+}
+
+/*.flotar{
+  position: absolute;
+  left: 25%;
+}*/
+.fotografia{
+  width: 100%;
+  border: 2px solid white;
+  margin-bottom: 15px;
+
+}
+.comentario{
+  border: 1px solid black;
+  overflow: hidden;
+}
+.floatleft{
+  float: left;
+  padding: 10px;
+}
+/*.centrardiv{
+  margin: 0 auto;
+}*/
+.margin4lados{
+  margin: 10px;
+}
+.padding4lados{
+  padding: 15px;
+}
+/*.centrarverticalp{
+  display: table;
+  height: 10px;
+}
+.centrarvertical{
+display: table-cell;
+vertical-align: middle;
+}*/
+.redondear{
+  border-radius: 25px;
+-moz-border-radius: 25px;
+-webkit-border-radius: 25px;
+}
+.colorrosado{
+  background: #FEE9F7;
+}
+.coloranaranjado{
+  background: orange;
+}
+.colormorado{
+  background: #DCE0F1;
+}
+.textocentrado{
+  text-align: center;
+}
+.botonpublicar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+  .botonpublicar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+  .textoblanco{
+    color: white;
+    text-align: right;
+  }
+  .transparencia50{
+    opacity: 0.5;
+    filter:  alpha(opacity=50);
+  }
+  .transparencia0{
+    opacity: 1.0 !important;
+  }
+  .display{
+    display:inline-block;
+  }
